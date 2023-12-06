@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"> <!--English language-->
+    <head>
+    <meta charset="UTF-8"> <!-- Unicode Transformation Format - 8 bits-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--control the layout and scaling of the viewport on mobile devices -->
+    <link rel="stylesheet" href="feedback.css"> <!--Link to css-->
+
+    <!--Fonts of google-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Great+Vibes&family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+<title> Western</title> <!--Adding a title to the page-->
+
+</head>
+    <body>
+        <!--create a container with classes per section + create a link to the html-->
+        <nav class="container">
+            <a href="index.html" class="home">Home</a>
+            <a href="about.html" class="about">About</a>
+            <a href="shop.html" class="shop">Shop here</a>
+            <a href="feedback.html" class="feedback">Customer feedback</a>
+            <a href="support.html" class="support">Support</a> 
+            <a href="info.html" class="info">Corporate Information</a> 
+        </nav>
+        <br><br> <!--Space between text-->
+
+        <h1> The best customer review </h1> <!--Heading-->
+       
+        
+        <!--Create different ids to separate each feedback in one container + add some text-->
+        <div class="feed">
+        <p id="feed1"><br>Telephone Pink <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> I am very satisfied with the product, it is amazing!!!!</p>
+        <p id="feed2"><br>Telephone Green <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> The best purchase of the year</p>
+        <p id="feed3"><br>Telephone Black <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> I love it!!!!!</p>
+        <p id="feed4"><br>Telephone Green <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9734 <br> Just buy it you won't regreat</p>
+        <p id="feed5"><br>Telephone Black <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> High quality</p>
+        <p id="feed6"><br>Telephone Ivory <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9734 <br> I will buy more certainly</p>
+        <p id="feed7"><br>Telephone Red <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> I am satisfied!</p>
+        <p id="feed8"><br>Telephone Blue <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> Beatiful and with good quality</p>
+        <p id="feed9"><br>Telephone Blue <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> Amazing, the best purchase</p>
+        <p id="feed10"><br>Telephone Black <br><br><br><br> &#9733 &#9733 &#9733 &#9733 &#9733 <br> High quality, I am satisfied</p>
+        </div>
+
+        <!--create a class with a heading inside-->
+        <div class="form">
+        <h1> Leave your feedback here </h1> <!--Heading-->
+        </div>
+        <br><br><br><br>
+
+        <!--create the field and declare that is an attribute-->
+        <label for="style"> &nbsp &nbsp &nbsp Select the telephone color:</label> 
+        <br><br><br>
+
+        <!--create the radio button that is part of the attribute + name of the radio field-->
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <!--space-->
+        <input type="radio" id="pink" name="style" value="pink">
+        <label for="pink">Pink</label>
+       
+        <input type="radio" id="black" name="style" value="black">
+        <label for="black">Black</label>
+        
+        <input type="radio" id="green" name="style" value="green">
+        <label for="green">Green</label>
+      
+        <input type="radio" id="blue" name="style" value="blue">
+        <label for="blue">Blue</label>
+       
+        <input type="radio" id="red" name="style" value="red">
+        <label for="red">Red</label>
+       
+        <input type="radio" id="ivory" name="style" value="ivory">
+        <label for="ivory">Ivory</label>
+      
+        <input type="radio" id="colors" name="style" value="colors">
+        <label for="colors">Red, Ivory and Green</label>
+       <br><br> 
+       
+       <!--create a heading-->
+       <h6>Select the level of satisfaction with the stars:</h6>   
+       <br>
+
+       <!--create a class + radio buttons-->
+       <div class="rating">
+
+       <input type="radio" id="fiveStars" name="rating">
+       <label for="fiveStars"></label>
+
+       <input type="radio" id="fourStars" name="rating">
+       <label for="fourStars"></label>
+
+       <input type="radio" id="threeStars" name="rating">
+       <label for="threeStars"></label>
+
+       <input type="radio" id="twoStars" name="rating">
+       <label for="twoStars"></label>
+ 
+       <input type="radio" id="oneStar" name="rating">
+       <label for="oneStar"></label>
+
+       </div>
+        <br><br>
+
+
+        <!--create a field to type a message-->
+        <label for="message">  &nbsp &nbsp &nbsp Leave here a message with your feedback: </label> 
+        <br>  &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <input type="text" name="message" id="message"> 
+        <br><br><br><br> 
+
+        <!--create a submit button-->
+       <form id="feed">
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <!--add space-->
+        <input type="submit" value="Submit" onclick="messageUser()" > 
+       </form>
+        <br><br><br><br> 
+
+        <!--create a js code so when the user press submit an alert will be displayed with a message-->
+        <script>
+        function messageUser(){
+        alert ("Thank you for your feedback!");
+    }
+        </script>
+
+        </body>
+</html>

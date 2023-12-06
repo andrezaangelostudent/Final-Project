@@ -1,0 +1,665 @@
+/* Change the font of the elements inside the container */
+.container {
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Cookie', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* change the margin and the padding for all the page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* change the width, height and backgroung color of everything that is inside the nav */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+/* change the padding, position, remove the decoration of the text and change the color */
+nav a {
+    padding: 50px;
+    line-height: 100px;
+    text-decoration: none;
+    color:white;
+
+}
+
+/* change the padding, position and size + create a effect in 400ms */
+.photo {
+    padding-left: 700px;
+    position: relative;
+    bottom: 1025px;
+    width:50%;
+    transition: 400ms;
+}
+
+/*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+.photo:hover {
+    transform: scale(1.03);
+}
+
+
+/* change the font, font-size and position */
+h1 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 110px;
+    padding-left: 80px;
+    text-align:left;
+
+}
+
+/* change position of the text inside the line + size and color of the line */
+.text {
+    bottom: 900px;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color:white;
+    line-height: 250px;
+}
+
+/*change the position of the image, change the format and change the size of the image */
+.photo2 {
+    position: relative;
+    bottom: 850px;
+    width: 50%;
+    background-size: cover;
+    clip-path: circle(45%);
+   transition: clip-path 1s;
+   }
+
+   /*create the effect in the image so the circle get smaller when the user hover the image */
+   .photo2:hover {
+    clip-path: circle(25%);
+   }
+
+   /* change the font, position and font size */
+   .benefits {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    bottom: 1320px;
+    font-size: 40px;
+    padding-left: 800px;
+    
+      }
+
+   /* change the position of the text and create a background with color */
+      .textgreen {
+        bottom: 1100px;
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        color:#909D85;
+        line-height: 250px;
+    }
+
+      /* change the position of the text and create a background with color */
+    .textivory {
+        bottom: 1150px;
+        position: relative;
+        max-width: 100%;
+        height: 250px;
+        background-color:#E9B0B7;
+        color:rgb(3, 3, 3);
+        line-height: 250px;
+        padding-left: 800px;
+    }
+
+      /* change the position of the text and create a background with color */
+    .textblue {
+        bottom: 1200px;
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background-color:rgb(3, 3, 3);
+        color:#A3D3E5;
+        line-height: 250px;
+
+    }
+
+      /* change the position of the text and create a background with color */
+    .textred {
+        bottom: 1250px;
+        position: relative;
+        max-width: 100%;
+        height: 250px;
+        background-color:#D4D5D7;
+        color:#951E20;
+        line-height: 250px;
+        padding-left: 500px;
+
+    }
+
+      /* change the position of the photo, change the foto size and shape + create a effect in 400ms*/
+    .photopink {
+        position: relative;
+        bottom: 1200px;
+        width: 40%;
+        background-size: cover;
+        clip-path: circle(45%);
+        height: 500px;
+        transition: 400ms;
+    
+       }
+    
+       /*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+       .photopink:hover {
+        transform: scale(1.03);
+
+       }
+    
+       
+      /* change the position of the photo, change the foto size and shape + create a effect in 400ms*/
+       .photogreen {
+        position: relative;
+        bottom: 1600px;
+        max-width: 40%;
+        background-size: cover;
+        clip-path: circle(45%);
+        height: 500px;
+        transition: 400ms;
+       }
+    
+       /*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+       .photogreen:hover {
+        transform: scale(1.03);
+       }
+    
+       /* change the position of the photo, change the foto size and shape + create a effect in 400ms*/
+       .photored {
+        position: relative;
+        bottom: 1500px;
+        width: 40%;
+        background-size: cover;
+        clip-path: circle(45%);
+        transition: 400ms;
+       }
+    
+        /*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+       .photored:hover {
+        transform: scale(1.03);
+       }
+    
+         /* change the position of the photo, change the foto size and shape + create a effect in 400ms*/
+       .photoblue {
+        position: relative;
+       top: 200px;
+        width: 40%;
+        background-size: cover;
+        clip-path: circle(45%);
+        transition: 400ms;
+       }
+    
+      /*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+       .photoblue:hover {
+        transform: scale(1.03);
+       }
+    
+       /* change the position of the photo, change the foto size and shape + create a effect in 400ms*/
+       .photoivory {
+        position: relative;
+        bottom: 780px;
+        width: 40%;
+        background-size: cover;
+        clip-path: circle(47%);
+        transition: 400ms;
+        height: 550px;
+       }
+    
+      /*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+       .photoivory:hover {
+        transform: scale(1.03);
+       }
+    
+       /*change the font of the text, position, font size and the color */
+       .phonecolorpink {
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Cookie', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        bottom: 3700px;
+        font-size: 50px;
+        padding-left: 500px;
+        color: #E9B0B7;
+       }
+
+        /*change the font of the text, position, font size and the color */
+       .phonecolorgreen {
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Cookie', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        bottom: 3250px;
+        font-size: 50px;
+        padding-left: 500px;
+        color:#909D85;
+       }
+
+      /*change the font of the text, position, font size and the color */
+       .phonecolorred {
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Cookie', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        bottom: 2850px;
+        font-size: 50px;
+        padding-left: 500px;
+        color:#951E20;
+       }
+
+      /*change the font of the text, position, font size and the color */
+       .phonecolorblue {
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Cookie', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        bottom: 2400px;
+        font-size: 50px;
+        padding-left: 500px;
+        color:#7FB7C6;
+       }
+
+       /*change the font of the text, position, font size and the color */
+       .phonecolorivory {
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Cookie', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        bottom: 2010px;
+        font-size: 50px;
+        padding-left: 510px;
+        color:black;
+       }
+
+       /* change the position, create a background color, change the font and the color of the text */
+       footer {
+        bottom: 1800px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Cookie', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background-color:rgb(3, 3, 3);
+        color:white;
+       }
+
+       /*remove the space after the footer */
+       html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+
+/* change the font, position and size */
+.titleabout {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+    padding-left: 1px;
+
+}
+
+/*change the height, width and position of the image */
+.photoabout {
+    height: 650px;
+    width: 500px;
+    padding:4px 60px;
+
+}
+
+/* change the font, position and size */
+.textabout {
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+    position: relative;
+    padding-left: 600px;
+    float: left;
+    bottom: 500px;
+    text-align: center;
+}
+
+/*create a hover effect with opacity*/
+.photoabout:hover {
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
+
+/*change the height, width and position of the image */
+.photoabout2 {
+    height: 550px;
+    width: 600px;
+    padding-left: 850px;
+    bottom: 200px;
+    position: relative;
+    float:left;
+    margin-right: 20px;
+
+}
+
+/*create a hover effect with opacity*/
+.photoabout2:hover {
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
+
+/* change the font, position and size */
+.textabout2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+    position: relative;
+    float: left;
+    bottom: 750px;
+    text-align: center;
+    max-width: 50%;
+}
+
+/*change the height, width and position of the image */
+.photoabout3 {
+    height: 500px;
+    width: 600px;
+    bottom: 650px;
+    float: left;
+    padding-right: 600px;
+    position: relative;
+
+}
+
+/* change the font, position and size */
+.textabout3 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+    position: relative;
+    padding-left: 700px;
+    float: left;
+    bottom: 1000px;
+    text-align: center;
+}
+
+
+
+/*change the position */
+footer {
+    height: 80%;
+}
+
+
+
+
+   /*create the responsive design for smaller screens, so when the width is 768px, the content will be displayed
+   in a responsive way */
+   @media screen and (max-width: 768px) {
+
+    /*change the width and height */
+        nav {
+        max-width: 100%;
+        height: 10%;             
+
+    }
+
+   /*change the position, height and font size */
+    nav a {
+        padding: 2px;
+        height: 100%;
+        font-size: 10px;
+        display: inline-block;
+        line-height: 55px;
+        position:relative;
+         
+    }
+
+       /*change the position, height and font size */
+    h1 {
+        font-size:25px;
+        bottom:100px;
+        position: relative;
+        padding-left: 30px;
+        height:40%;
+        padding: 30px;
+        
+    }
+
+       /*change the position, height and font size */
+    .text {
+        bottom:400px;
+        position: relative;
+        height: 30%;     
+        font-size: 100px;
+      
+    }
+
+    /*change the position */
+.photo {   
+    padding-left: 170px;
+    position: relative;
+    bottom: 415px;
+}
+
+    /*change the position */
+.photo2 {   
+    bottom: 350px;
+    position: relative;
+}
+
+    /*change the position and font size*/
+ .textivory {
+    font-size: 100px;
+    position:relative;
+    padding-left: 30px;
+}
+
+      /*change the position and font size*/
+.textred {
+    font-size: 100px;
+    position:relative;
+    padding-left: 30px;
+}
+
+  /*change the size and position*/
+.photopink {
+    width: 140px;
+    height: 140px;
+    bottom:1200px;
+    position: relative;
+
+}
+
+/*change the size and position*/
+.photogreen{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom:1300px;
+
+}
+
+/*change the size and position*/
+.photored {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom:1250px;
+
+}
+
+/*change the size and position*/
+.photoivory {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    bottom:1200px;
+
+}
+
+/*change the size and position*/
+.photoblue { 
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top:-570px;
+
+}
+
+/*change the font size and the position */
+footer {
+    top: 0; 
+    font-size: 10px; 
+}
+
+
+   /*create a hover effect with opacity*/
+.photoabout3:hover {
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
+
+/*change the position */
+.phonecolorpink {
+    position:relative;
+    padding-left: 50px;
+    bottom: 800px;
+}
+
+/*change the position */
+.phonecolorblue {
+    position:relative;
+    padding-left: 50px;
+    bottom: 800px;
+}
+
+/*change the position */
+.phonecolorivory {
+    position:relative;
+    padding-left: 50px;
+    bottom: 600px;
+}
+
+/*change the position */
+.phonecolorred {
+    position:relative;
+    padding-left: 50px;
+    bottom: 100px;
+}
+
+/*change the position */
+.phonecolorgreen {
+    position:relative;
+    padding-left: 50px;
+    bottom: -300px;
+}
+   }
+
+  /*create the responsive design for bigger screens, so when the width is 1200px or higher, the content will be displayed
+   in a single column and the position and font size will be changed */
+@media (max-width: 1200px) {
+    
+    /*change the width */
+    nav {
+        width: 120%;
+    
+    }
+
+    /*change the position */
+    h1 {
+        position: relative;
+        bottom:40px;
+        }
+
+         /*change the width */
+        .text {
+            width: 120%;
+        }
+
+         /*change the position */
+        .textgreen , .textblue  {
+            width: 120%;
+            line-height: 330px;
+        }
+       
+         /*change the position */
+        .textivory {
+            width: 55%;
+            padding-left: 780px;
+            position:relative;
+            line-height: 310px;
+        }
+
+         /*change the position */
+        .textred {
+            width: 70%;
+            padding-left: 600px;
+            position:relative;
+            line-height: 310px;
+        }
+
+         /*change the position */
+        .phonecolorpink {
+            position:relative;
+            bottom: 3550px;
+        }
+
+         /*change the position */
+        .phonecolorgreen {
+            position:relative;
+            bottom: 3400px;
+        }
+
+         /*change the position */
+        .phonecolorred {
+            position:relative;
+            bottom: 3250px;
+        }
+
+         /*change the position */
+        .photoblue { 
+            position: relative;
+            top:-20px;
+        
+        }
+
+         /*change the position */
+        .phonecolorblue {
+            position:relative;
+            bottom: 3070px;
+        }
+
+         /*change the position */
+        .photoivory { 
+            position: relative;
+            top:-880px;
+        
+        }
+
+         /*change the position */
+        .phonecolorivory {
+            position:relative;
+            bottom: 3000px;
+        }
+
+         /*change the position */
+        footer {
+            height: 90%;
+        }
+
+    }

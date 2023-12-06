@@ -1,0 +1,152 @@
+
+/*change the font */
+.container {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    }
+    
+    /* change the margin and the padding for all the page */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* change the width, height and backgroung color of everything that is inside the nav */
+    nav {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+    
+    /* change the padding, position, remove the decoration of the text and change the color */
+    nav a {
+        padding: 50px;
+        line-height: 100px;
+        text-decoration: none;
+        color:white;
+    
+    }
+
+    /* change the font, font-size and position */
+h1 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 75px;
+    padding-left: 80px;
+    text-align:left;
+
+}
+   /* change the position */
+.feed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ /* change the position + change the background color + change the font and the font size + create a border + create an effect in 400ms  */
+p {
+    display: inline-block;
+    width: 170px;
+    height: 250px;
+    border: 2px solid rgb(78, 78, 76);
+    background: rgb(209,214,249);
+    background: linear-gradient(90deg, rgba(209,214,249,1) 50%, rgba(209,205,198,1) 100%);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 60px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    text-align: center;
+    transition: 400ms;
+}
+
+  /*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+p:hover {
+    transform: scale(1.03);
+}
+
+
+
+    /* change the font, font-size and position */
+    h1 {
+        font-family: 'Koulen', sans-serif;
+        font-size: 75px;
+        padding-left: 80px;
+        text-align:left;
+    
+    }
+    
+    /*change the height + width + font size */
+    .rating {
+        height: 70px;
+        width:100%;
+        font-size: 30px;
+
+        }
+     
+    /*when the user click in the first star it change the color only of the first one because it consider the right direction*/    
+    .rating >* {
+        float: right;
+    }
+    
+   
+    /*create the star icon, change the color, position and create an animation */
+    .rating label::after {
+        transition: all 0.4s ease-out;
+        -webkit-font-smoothing:antialiased;
+        position: relative;
+        display: block;
+        content:"☆";
+        color: black;
+        -webkit-animation: 1s pulse ease;
+        animation: 1s pulse ease;
+        margin-right: 160px;
+        }
+
+        /*remove the visibility */
+     .rating input {
+            display: none;
+        }
+
+        /*when the star is selected the color inside change */
+    .rating input:checked + label::after,
+    .rating input:checked ~ label::after {
+        content:"★";
+        color: rgb(126, 136, 200);
+        }
+
+        /*change the position, font, size and remove any text decoration */
+    h6 {
+        padding-left: 60px;
+        bottom: -60px;
+        position: relative;
+        font-family: 'Josefin Slab', serif;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    /*change the font, font size and position */
+    label {
+        font-family: 'Josefin Slab', serif;
+        font-size: 25px;
+        display: inline-block;
+        margin: 8px;
+          }
+
+          /*change the width and height */
+    #message {
+
+    width: 600px;
+    height: 300px;
+    }
+
+    /*change the font, font size and position */
+   input {
+        font-family: 'Josefin Slab', serif;
+        font-size: 20px;
+        text-align: center;
+        
+    }

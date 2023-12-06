@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"> <!--English language-->
+    <head>
+    <meta charset="UTF-8"> <!-- Unicode Transformation Format - 8 bits-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--control the layout and scaling of the viewport on mobile devices -->
+    <link rel="stylesheet" href="shopstyles.css"> <!--Link to css-->
+    <title> Western</title> <!--Adding a title to the page-->
+
+    <!--Fonts of google-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Great+Vibes&family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <!--create a container with classes per section + create a link to the html-->
+        <nav class="container">
+            <a href="index.html" class="home">Home</a>
+            <a href="about.html" class="about">About</a>
+            <a href="shop.html" class="shop">Shop here</a>
+            <a href="feedback.html" class="feedback">Customer feedback</a>
+            <a href="support.html" class="support">Support</a> 
+            <a href="info.html" class="info">Corporate Information</a> 
+        </nav>
+        <br><br><br> <!--Space between text-->
+
+        <h1> Choose here your favorite </h1> <!--Heading-->
+
+        <!--svg of the cart-->
+        <svg class="w-[28px] h-[28px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+          </svg>
+
+        <br><!--Space between text-->
+
+        <!--create a class for each image with the description of the image + create the button with exclusive classes + create an action
+        to display a message when the user click in add to cart-->
+        <div class="shopping">
+        <img src="Assets/Telephone pink.jpg" alt="pink phone" class="shoppink">
+        <button class="buttoncart" onclick="addCart('Telephone color pink ')">Add to Cart</button>
+        <img src="Assets/Telefone green.jpg" alt="green phone" class="shopgreen">
+        <button class="buttoncart" onclick="addCart('Telephone color green ')">Add to Cart</button>
+        <img src="Assets/Telephone blue.jpg" alt="blue phone" class="shopblue">
+        <button class="buttoncart" onclick="addCart('Telephone color blue ')">Add to Cart</button>
+        <img src="Assets/Telephone red.jpg" alt="red phone" class="shopred">
+        <button class="buttoncart" onclick="addCart('Telephone color red ')">Add to Cart</button>
+        <img src="Assets/Telephone ivory.jpg" alt="ivory phone" class="shopivory">
+        <button class="buttoncart" onclick="addCart('Telephone color ivory ')">Add to Cart</button>
+        <img src="Assets/Telephone black.jpg" alt="black phone" class="shopblack">
+        <button class="buttoncart" onclick="addCart('Telephone color black ')">Add to Cart</button>
+        <img src="Assets/Telephone colors.jpg" alt="telephonec colors" class="shopcolors">
+        <button class="buttoncart" onclick="addCart('Telephone color red, green and ivory ')">Add to Cart</button>
+        </div>
+
+        <!--create a paragraph with diferent ids so I can style them separate-->
+        <p id="buypink">Telephone Pink 100 CAD</p>
+        <p id="buygreen">Telephone Green 110 CAD</p>
+        <p id="buyblue">Telephone Blue 115 CAD</p>
+        <p id="buyred">Telephone Red 100 CAD</p>
+        <p id="buyivory">Telephone Ivory 110 CAD</p>
+        <p id="buyblack">Telephone Black 100 CAD</p>
+        <p id="buycolors">Telephone Red, Green and Ivory on sale per 250 CAD</p>
+
+        <!--create a js action so when the user click on add to cart the page display a message that is inside the onclick addCart action +
+        the message bellow-->
+        <script>
+            function addCart(color) {
+                alert(color + 'was added to the cart.');
+            }
+        </script>
+
+        </body>
+        </html>

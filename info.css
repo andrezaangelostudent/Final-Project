@@ -1,0 +1,69 @@
+
+/*change the font */
+.container {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    }
+    
+    /* change the margin and the padding for all the page */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* change the width, height and backgroung color of everything that is inside the nav */
+    nav {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+    
+    /* change the padding, position, remove the decoration of the text and change the color */
+    nav a {
+        padding: 50px;
+        line-height: 100px;
+        text-decoration: none;
+        color:white;
+    
+    }
+
+    /* change the font, font-size and position */
+h1 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 100px;
+    padding-left: 80px;
+    text-align:left;
+
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    position: relative;
+    padding-left: 600px;
+    float: left;
+    bottom: 290px;
+    text-align: center;
+    line-height: 45px;;
+}
+
+ /* change the position of the photo, change the foto size and shape + create an effect in 400ms*/
+   img {
+    position: relative;
+    bottom: -50px;
+    width: 40%;
+    background-size: cover;
+    clip-path: circle(45%);
+    height: 500px;
+    transition: 400ms;
+
+   }
+
+   /*when the user hover the mouse it create an effect in the image so it get a little bit bigger */
+  img:hover {
+    transform: scale(1.03);
+
+   }
